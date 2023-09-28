@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
+* {
+    font-family: 'Inclusive Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #f0f2f5;
+    height: 100vh;
+}
+
+.facebook {
+    display: inline-block;
+    /* border: 2px solid red; */
+    color: rgb(0 113 253);
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    top: 223px;
+    left: 210px;
+}
+
+.text {
+    color: black;
+    font-size: 27px;
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 210px;
+    /* border: 2px solid; */
+    width: 558px;
+}
+
+.cont1 {
+    width: 450px;
+    height: 346px;
+    background-color: #e7e2e2;
+    position: absolute;
+    right: 85px;
+    top: 140px;
+}
+
+.container {
+    /* border: 2px solid cyan; */
+    /* box-shadow: 2px 2px black; */
+    display: block;
+    width: 440px;
+    height: 340px;
+    background-color: white;
+    position: absolute;
+    right: 90px;
+    top: 140px;
+}
+
+.form-control {
+    display: block;
+    margin: 15px;
+}
+
+input {
+    display: block;
+    margin-top: 20px;
+    margin: 15px auto;
+    width: 82%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid #b7a9a9;
+}
+
+.btn1 {
+    background-color: rgb(0 113 253);
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    width: 89%;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn1:hover {
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: rgb(40, 190, 40);
+    color: white;
+    display: block;
+    margin: 15px auto;
+    padding: 15px;
+    margin-top: 20px;
+    width: 47.5%;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn2:hover {
+    background-color: rgb(30, 172, 30);
+    cursor: pointer;
+}
+
+.passwd {
+    border-bottom: 1px solid #d1c0c0;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.passwd a {
+    display: block;
+    margin: auto;
+    width: 160px;
+    text-decoration: none;
+    color: rgb(0 113 253);
+}
+
+.passwd a:hover {
+    text-decoration: underline;
+}
+
+.brand {
+    color: black;
+    display: block;
+    margin: 30px auto;
+    width: 367px;
+    font-size: 16px;
+}
+
+.brand a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.brand a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width:1300px) and (max-width: 2652px) {
+    body{
+        display: block;
+    }
+
+    .facebook{
+        display: block;
+    }
+
+    .text{
+        display: block;
+    }
+
+    .cont1{
+        display: block;
+    }
+    .container{
+        display: block;
+    }
+
+    .form-control{
+        display: block;
+    }
+
+    input{
+        display: block;
+    }
+
+    .btn1{
+        display: block;
+    }
+
+    .btn2{
+        display: block;
+    }
+
+    .passwd{
+        display: block;
+    }
+
+    .passwd a{
+        display: block;
+    }
+
+    .brand{
+        display: block;
+    }
+
+    .brand a{
+        display: block;
+    }
+}
